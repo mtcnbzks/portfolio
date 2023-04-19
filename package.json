@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./build/css/input.css -o ./build/css/output.css",
+    "watch": "npx tailwindcss -i ./build/css/input.css -o ./build/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "mtcnbzks",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}

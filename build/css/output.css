@@ -543,8 +543,8 @@ video {
   width: 2.5rem;
 }
 
-.w-32{
-  width: 8rem;
+.w-24{
+  width: 6rem;
 }
 
 .w-48{
@@ -553,6 +553,10 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-32{
+  width: 8rem;
 }
 
 .flex-col{

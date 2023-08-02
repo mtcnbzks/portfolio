@@ -535,8 +535,28 @@ video {
   height: 4rem;
 }
 
+.h-28{
+  height: 7rem;
+}
+
 .h-screen{
   height: 100vh;
+}
+
+.h-24{
+  height: 6rem;
+}
+
+.h-44{
+  height: 11rem;
+}
+
+.h-36{
+  height: 9rem;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .w-10{
@@ -553,6 +573,14 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-28{
+  width: 7rem;
+}
+
+.w-32{
+  width: 8rem;
 }
 
 .flex-col{
@@ -602,6 +630,16 @@ video {
 .bg-green-400{
   --tw-bg-opacity: 1;
   background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .px-4{
